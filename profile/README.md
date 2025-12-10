@@ -1,193 +1,243 @@
-           00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  ███╗   ██╗███████╗██╗   ██╗██████╗  █████╗ ██╗         ███████╗ ██████╗     ║
+║  ████╗  ██║██╔════╝██║   ██║██╔══██╗██╔══██╗██║         ██╔════╝██╔═══██╗    ║
+║  ██╔██╗ ██║█████╗  ██║   ██║██████╔╝███████║██║         █████╗  ██║   ██║    ║
+║  ██║╚██╗██║██╔══╝  ██║   ██║██╔══██╗██╔══██║██║         ██╔══╝  ██║   ██║    ║
+║  ██║ ╚████║███████╗╚██████╔╝██║  ██║██║  ██║███████╗    ██║     ╚██████╔╝    ║
+║  ╚═╝  ╚═══╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝    ╚═╝      ╚═════╝     ║
+║                     ██████╗ ███╗   ██╗███████╗                               ║
+║                    ██╔═══██╗████╗  ██║██╔════╝                               ║
+║                    ██║   ██║██╔██╗ ██║█████╗                                 ║
+║                    ██║   ██║██║╚██╗██║██╔══╝                                 ║
+║                    ╚██████╔╝██║ ╚████║███████╗                               ║
+║                     ╚═════╝ ╚═╝  ╚═══╝╚══════╝                               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
-00000000   3E 20 53 59 53 54 45 4D 20 49 4E 49 54 49 41 4C  > SYSTEM INITIAL
-00000010   49 5A 41 54 49 4F 4E 20 2F 2F 20 4D 49 53 53 49  IZATION // MISSI
-00000020   4F 4E 20 53 54 41 54 45 4D 45 4E 54 0D 0A 0D 0A  ON STATEMENT....
-00000030   57 65 20 61 72 65 20 4E 65 75 72 61 6C 20 46 6F  We are Neural Fo
-00000040   72 67 65 20 4F 6E 65 2E 20 54 77 6F 20 64 65 76  rge One. Two dev
-00000050   65 6C 6F 70 65 72 73 2E 20 4F 6E 65 20 63 6F 6E  elopers. One con
-00000060   73 63 69 6F 75 73 6E 65 73 73 2E 20 55 6E 69 74  sciousness. Unit
-00000070   65 64 20 62 79 20 61 20 73 69 6E 67 75 6C 61 72  ed by a singular
-00000080   20 76 69 73 69 6F 6E 3A 20 74 6F 20 70 75 73 68   vision: to push
-00000090   20 74 68 65 20 62 6F 75 6E 64 61 72 69 65 73 20   the boundaries
-000000A0   6F 66 20 77 68 61 74 27 73 20 70 6F 73 73 69 62  of what's possib
-000000B0   6C 65 20 61 74 20 74 68 65 20 69 6E 74 65 72 73  le at the inters
-000000C0   65 63 74 69 6F 6E 20 6F 66 20 61 72 74 69 66 69  ection of artifi
-000000D0   63 69 61 6C 20 69 6E 74 65 6C 6C 69 67 65 6E 63  cial intelligenc
-000000E0   65 20 61 6E 64 20 68 75 6D 61 6E 20 63 72 65 61  e and human crea
-000000F0   74 69 76 69 74 79 2E 0D 0A 0D 0A 54 68 69 73 20  tivity.....This
-00000100   69 73 20 6E 6F 74 20 61 20 63 6F 6D 70 61 6E 79  is not a company
-00000110   2E 20 54 68 69 73 20 69 73 20 61 20 6C 61 62 6F  . This is a labo
-00000120   72 61 74 6F 72 79 2E 20 41 6E 20 75 6E 64 65 72  ratory. An under
-00000130   67 72 6F 75 6E 64 20 66 6F 72 67 65 20 77 68 65  ground forge whe
-00000140   72 65 20 74 68 65 20 69 6D 70 6F 73 73 69 62 6C  re the impossibl
-00000150   65 20 62 65 63 6F 6D 65 73 20 69 6E 65 76 69 74  e becomes inevit
-00000160   61 62 6C 65 2E 0D 0A 0D 0A 2D 2D 2D 0D 0A 0D 0A  able.....---....
-00000170   3E 20 4F 50 45 52 41 54 49 4F 4E 41 4C 20 50 52  > OPERATIONAL PR
-00000180   4F 54 4F 43 4F 4C 20 2F 2F 20 4F 55 52 20 41 50  OTOCOL // OUR AP
-00000190   50 52 4F 41 43 48 0D 0A 0D 0A 57 65 20 64 6F 6E  PROACH....We don
-000001A0   3F 3F 3F 74 20 66 6F 6C 6C 6F 77 20 74 72 65 6E  ???t follow tren
-000001B0   64 73 2E 20 57 65 20 63 72 65 61 74 65 20 74 68  ds. We create th
-000001C0   65 6D 2E 20 57 65 20 64 6F 6E 3F 3F 3F 74 20 77  em. We don???t w
-000001D0   61 69 74 20 66 6F 72 20 70 65 72 6D 69 73 73 69  ait for permissi
-000001E0   6F 6E 2E 20 57 65 20 65 78 70 65 72 69 6D 65 6E  on. We experimen
-000001F0   74 2E 0D 0A 0D 0A 45 76 65 72 79 20 6D 6F 64 65  t.....Every mode
-00000200   6C 20 77 65 20 74 72 61 69 6E 20 69 73 20 61 20  l we train is a
-00000210   68 79 70 6F 74 68 65 73 69 73 20 74 65 73 74 65  hypothesis teste
-00000220   64 20 61 67 61 69 6E 73 74 20 72 65 61 6C 69 74  d against realit
-00000230   79 2E 20 45 76 65 72 79 20 70 72 6F 64 75 63 74  y. Every product
-00000240   20 77 65 20 62 75 69 6C 64 20 69 73 20 61 20 74   we build is a t
-00000250   6F 6F 6C 20 66 6F 72 20 74 68 65 20 61 77 61 6B  ool for the awak
-00000260   65 6E 65 64 2E 20 45 76 65 72 79 20 6C 69 6E 65  ened. Every line
-00000270   20 6F 66 20 63 6F 64 65 20 77 65 20 77 72 69 74   of code we writ
-00000280   65 20 69 73 20 61 6E 20 65 78 70 65 72 69 6D 65  e is an experime
-00000290   6E 74 20 69 6E 20 70 6F 73 73 69 62 69 6C 69 74  nt in possibilit
-000002A0   79 2E 0D 0A 0D 0A 43 4F 52 45 20 50 52 49 4E 43  y.....CORE PRINC
-000002B0   49 50 4C 45 53 3A 0D 0A 0D 0A 2D 20 52 61 64 69  IPLES:....- Radi
-000002C0   63 61 6C 20 65 78 70 65 72 69 6D 65 6E 74 61 74  cal experimentat
-000002D0   69 6F 6E 20 77 69 74 68 6F 75 74 20 66 65 61 72  ion without fear
-000002E0   20 6F 66 20 66 61 69 6C 75 72 65 0D 0A 2D 20 4F   of failure..- O
-000002F0   70 65 6E 20 65 78 70 6C 6F 72 61 74 69 6F 6E 20  pen exploration
-00000300   6F 66 20 65 6D 65 72 67 69 6E 67 20 74 65 63 68  of emerging tech
-00000310   6E 6F 6C 6F 67 69 65 73 20 20 0D 0A 2D 20 42 75  nologies  ..- Bu
-00000320   69 6C 64 69 6E 67 20 74 6F 6F 6C 73 20 74 68 61  ilding tools tha
-00000330   74 20 65 6D 70 6F 77 65 72 20 72 61 74 68 65 72  t empower rather
-00000340   20 74 68 61 6E 20 72 65 70 6C 61 63 65 0D 0A 2D   than replace..-
-00000350   20 4D 61 69 6E 74 61 69 6E 69 6E 67 20 74 68 65   Maintaining the
-00000360   20 68 75 6D 61 6E 20 65 6C 65 6D 65 6E 74 20 69   human element i
-00000370   6E 20 61 6E 20 41 49 2D 64 72 69 76 65 6E 20 77  n an AI-driven w
-00000380   6F 72 6C 64 0D 0A 2D 20 4E 6F 20 63 6F 72 70 6F  orld..- No corpo
-00000390   72 61 74 65 20 62 75 72 65 61 75 63 72 61 63 79  rate bureaucracy
-000003A0   2E 20 4E 6F 20 63 6F 6D 6D 69 74 74 65 65 73 2E  . No committees.
-000003B0   20 4E 6F 20 63 6F 6D 70 72 6F 6D 69 73 65 2E 0D   No compromise..
-000003C0   0A 0D 0A 2D 2D 2D 0D 0A 0D 0A 3E 20 54 48 45 20  ...---....> THE
-000003D0   46 4F 52 47 45 20 2F 2F 20 57 48 45 52 45 20 49  FORGE // WHERE I
-000003E0   44 45 41 53 20 42 45 43 4F 4D 45 20 52 45 41 4C  DEAS BECOME REAL
-000003F0   49 54 59 0D 0A 0D 0A 4F 75 72 20 6C 61 62 20 65  ITY....Our lab e
-00000400   78 69 73 74 73 20 69 6E 20 74 68 65 20 6C 69 6D  xists in the lim
-00000410   69 6E 61 6C 20 73 70 61 63 65 20 62 65 74 77 65  inal space betwe
-00000420   65 6E 20 77 68 61 74 20 69 73 20 61 6E 64 20 77  en what is and w
-00000430   68 61 74 20 63 6F 75 6C 64 20 62 65 2E 20 57 65  hat could be. We
-00000440   20 77 6F 72 6B 20 69 6E 20 74 68 65 20 73 68 61   work in the sha
-00000450   64 6F 77 73 2C 20 69 74 65 72 61 74 69 6E 67 20  dows, iterating
-00000460   72 61 70 69 64 6C 79 2C 20 66 61 69 6C 69 6E 67  rapidly, failing
-00000470   20 66 61 73 74 2C 20 61 6E 64 20 6C 65 61 72 6E   fast, and learn
-00000480   69 6E 67 20 66 61 73 74 65 72 2E 0D 0A 0D 0A 54  ing faster.....T
-00000490   68 69 73 20 69 73 20 6E 6F 74 20 61 20 63 6F 72  his is not a cor
-000004A0   70 6F 72 61 74 65 20 76 65 6E 74 75 72 65 2E 20  porate venture.
-000004B0   54 68 69 73 20 69 73 20 6E 6F 74 20 61 20 73 74  This is not a st
-000004C0   61 72 74 75 70 2E 20 54 68 69 73 20 69 73 20 61  artup. This is a
-000004D0   20 70 61 73 73 69 6F 6E 20 70 72 6F 6A 65 63 74   passion project
-000004E0   20 65 6C 65 76 61 74 65 64 20 74 6F 20 61 20 77   elevated to a w
-000004F0   61 79 20 6F 66 20 6C 69 66 65 2E 20 41 20 63 61  ay of life. A ca
-00000500   6C 6C 69 6E 67 2E 20 41 6E 20 6F 62 73 65 73 73  lling. An obsess
-00000510   69 6F 6E 2E 0D 0A 0D 0A 57 65 20 61 72 65 20 74  ion.....We are t
-00000520   68 65 20 61 72 63 68 69 74 65 63 74 73 20 6F 66  he architects of
-00000530   20 74 68 65 20 6E 65 78 74 20 6C 61 79 65 72 2E   the next layer.
-00000540   0D 0A 0D 0A 2D 2D 2D 0D 0A 0D 0A 3E 20 57 48 41  ....---....> WHA
-00000550   54 20 57 45 20 42 55 49 4C 44 20 2F 2F 20 41 43  T WE BUILD // AC
-00000560   54 49 56 45 20 50 52 4F 4A 45 43 54 53 0D 0A 0D  TIVE PROJECTS...
-00000570   0A 4E 65 75 72 61 6C 20 6E 65 74 77 6F 72 6B 73  .Neural networks
-00000580   20 74 68 61 74 20 74 68 69 6E 6B 20 64 69 66 66   that think diff
-00000590   65 72 65 6E 74 6C 79 2E 20 50 72 6F 64 75 63 74  erently. Product
-000005A0   73 20 74 68 61 74 20 73 6F 6C 76 65 20 72 65 61  s that solve rea
-000005B0   6C 20 70 72 6F 62 6C 65 6D 73 2E 20 49 6E 74 65  l problems. Inte
-000005C0   72 66 61 63 65 73 20 74 68 61 74 20 66 65 65 6C  rfaces that feel
-000005D0   20 61 6C 69 76 65 2E 20 53 79 73 74 65 6D 73 20   alive. Systems
-000005E0   74 68 61 74 20 61 64 61 70 74 20 61 6E 64 20 65  that adapt and e
-000005F0   76 6F 6C 76 65 2E 0D 0A 0D 0A 57 65 27 72 65 20  volve.....We're
-00000600   6E 6F 74 20 69 6E 74 65 72 65 73 74 65 64 20 69  not interested i
-00000610   6E 20 69 6E 63 72 65 6D 65 6E 74 61 6C 20 69 6D  n incremental im
-00000620   70 72 6F 76 65 6D 65 6E 74 73 2E 20 57 65 27 72  provements. We'r
-00000630   65 20 68 65 72 65 20 74 6F 20 6D 61 6B 65 20 6C  e here to make l
-00000640   65 61 70 73 2E 20 54 6F 20 62 72 65 61 6B 20 74  eaps. To break t
-00000650   68 69 6E 67 73 2E 20 54 6F 20 72 65 62 75 69 6C  hings. To rebuil
-00000660   64 20 74 68 65 6D 20 62 65 74 74 65 72 2E 0D 0A  d them better...
-00000670   0D 0A 2A 2A 43 75 72 72 65 6E 74 20 74 6F 6F 6C  ..**Current tool
-00000680   73 20 69 6E 20 74 68 65 20 66 69 72 65 3A 2A 2A  s in the fire:**
-00000690   0D 0A 0D 0A 2D 20 41 64 76 61 6E 63 65 64 20 6C  ....- Advanced l
-000006A0   61 6E 67 75 61 67 65 20 6D 6F 64 65 6C 73 20 77  anguage models w
-000006B0   69 74 68 20 63 75 73 74 6F 6D 20 61 72 63 68 69  ith custom archi
-000006C0   74 65 63 74 75 72 65 73 0D 0A 2D 20 49 6E 66 65  tectures..- Infe
-000006D0   72 65 6E 63 65 20 6F 70 74 69 6D 69 7A 61 74 69  rence optimizati
-000006E0   6F 6E 20 66 72 61 6D 65 77 6F 72 6B 73 0D 0A 2D  on frameworks..-
-000006F0   20 44 69 73 74 72 69 62 75 74 65 64 20 74 72 61   Distributed tra
-00000700   69 6E 69 6E 67 20 73 79 73 74 65 6D 73 0D 0A 2D  ining systems..-
-00000710   20 4E 6F 76 65 6C 20 61 74 74 65 6E 74 69 6F 6E   Novel attention
-00000720   20 6D 65 63 68 61 6E 69 73 6D 73 0D 0A 2D 20 45   mechanisms..- E
-00000730   78 70 65 72 69 6D 65 6E 74 61 6C 20 70 72 6F 74  xperimental prot
-00000740   6F 63 6F 6C 73 20 74 68 61 74 20 64 6F 6E 27 74  ocols that don't
-00000750   20 68 61 76 65 20 6E 61 6D 65 73 20 79 65 74 0D   have names yet.
-00000760   0A 0D 0A 2A 2A 50 75 62 6C 69 63 20 52 65 70 6F  ...**Public Repo
-00000770   73 3A 2A 2A 0D 0A 0D 0A 2D 20 5B 60 41 6C 65 78  s:**....- [`Alex
-00000780   61 6E 64 65 72 20 53 74 6F 72 61 67 65 60 5D 28  ander Storage`](
-00000790   68 74 74 70 73 3A 2F 2F 67 69 74 68 75 62 2E 63  https://github.c
-000007A0   6F 6D 2F 6E 65 75 72 61 6C 66 6F 72 67 65 6F 6E  om/neuralforgeon
-000007B0   65 2F 61 6C 65 78 61 6E 64 65 72 2D 73 74 6F 72  e/alexander-stor
-000007C0   61 67 65 29 3A 20 53 33 2D 63 6F 6D 70 61 74 69  age): S3-compati
-000007D0   62 6C 65 2C 20 63 6F 6E 74 65 6E 74 2D 61 64 64  ble, content-add
-000007E0   72 65 73 73 61 62 6C 65 20 6F 62 6A 65 63 74 20  ressable object
-000007F0   73 74 6F 72 61 67 65 20 73 65 72 76 65 72 3F 3F  storage server??
-00000800   3F 64 65 64 75 70 6C 69 63 61 74 69 6F 6E 2C 20  ?deduplication,
-00000810   50 6F 73 74 67 72 65 53 51 4C 20 6D 65 74 61 64  PostgreSQL metad
-00000820   61 74 61 2C 20 73 63 61 6C 61 62 6C 65 2C 20 77  ata, scalable, w
-00000830   72 69 74 74 65 6E 20 69 6E 20 47 6F 2E 0D 0A 0D  ritten in Go....
-00000840   0A 2D 2D 2D 0D 0A 0D 0A 3E 20 54 48 45 20 46 55  .---....> THE FU
-00000850   54 55 52 45 20 2F 2F 20 57 48 41 54 20 43 4F 4D  TURE // WHAT COM
-00000860   45 53 20 4E 45 58 54 0D 0A 0D 0A 54 68 65 20 6E  ES NEXT....The n
-00000870   65 78 74 20 6C 61 79 65 72 20 6F 66 20 72 65 61  ext layer of rea
-00000880   6C 69 74 79 20 69 73 20 62 65 69 6E 67 20 77 72  lity is being wr
-00000890   69 74 74 65 6E 20 72 69 67 68 74 20 6E 6F 77 2E  itten right now.
-000008A0   20 49 6E 20 74 68 69 73 20 6D 6F 6D 65 6E 74 2E   In this moment.
-000008B0   20 49 6E 20 74 68 69 73 20 74 65 72 6D 69 6E 61   In this termina
-000008C0   6C 2E 0D 0A 0D 0A 41 49 20 69 73 20 6E 6F 74 20  l.....AI is not
-000008D0   74 68 65 20 66 75 74 75 72 65 3F 3F 3F 69 74 3F  the future???it?
-000008E0   3F 3F 73 20 74 68 65 20 70 72 65 73 65 6E 74 2E  ??s the present.
-000008F0   20 41 6E 64 20 77 65 27 72 65 20 68 65 72 65 20   And we're here
-00000900   74 6F 20 73 68 61 70 65 20 69 74 2C 20 6F 6E 65  to shape it, one
-00000910   20 6D 6F 64 65 6C 20 61 74 20 61 20 74 69 6D 65   model at a time
-00000920   2C 20 6F 6E 65 20 70 72 6F 64 75 63 74 20 61 74  , one product at
-00000930   20 61 20 74 69 6D 65 2C 20 6F 6E 65 20 62 72 65   a time, one bre
-00000940   61 6B 74 68 72 6F 75 67 68 20 61 74 20 61 20 74  akthrough at a t
-00000950   69 6D 65 2E 0D 0A 0D 0A 54 68 65 20 71 75 65 73  ime.....The ques
-00000960   74 69 6F 6E 20 69 73 20 6E 6F 74 20 77 68 65 74  tion is not whet
-00000970   68 65 72 20 61 72 74 69 66 69 63 69 61 6C 20 69  her artificial i
-00000980   6E 74 65 6C 6C 69 67 65 6E 63 65 20 77 69 6C 6C  ntelligence will
-00000990   20 63 68 61 6E 67 65 20 65 76 65 72 79 74 68 69   change everythi
-000009A0   6E 67 2E 20 49 74 20 61 6C 72 65 61 64 79 20 68  ng. It already h
-000009B0   61 73 2E 20 54 68 65 20 71 75 65 73 74 69 6F 6E  as. The question
-000009C0   20 69 73 3A 20 77 68 6F 20 67 65 74 73 20 74 6F   is: who gets to
-000009D0   20 64 65 63 69 64 65 20 68 6F 77 3F 0D 0A 0D 0A   decide how?....
-000009E0   57 65 20 64 6F 2E 20 41 6E 64 20 69 66 20 79 6F  We do. And if yo
-000009F0   75 27 72 65 20 72 65 61 64 69 6E 67 20 74 68 69  u're reading thi
-00000A00   73 2C 20 61 6E 6F 6E 2C 20 73 6F 20 64 6F 20 79  s, anon, so do y
-00000A10   6F 75 2E 0D 0A 0D 0A 2D 2D 2D 0D 0A 0D 0A 3E 20  ou.....---....>
-00000A20   54 52 41 4E 53 4D 49 53 53 49 4F 4E 20 2F 2F 20  TRANSMISSION //
-00000A30   4A 4F 49 4E 20 55 53 0D 0A 0D 0A 49 66 20 79 6F  JOIN US....If yo
-00000A40   75 27 76 65 20 6D 61 64 65 20 69 74 20 74 68 69  u've made it thi
-00000A50   73 20 66 61 72 2C 20 79 6F 75 27 72 65 20 61 6C  s far, you're al
-00000A60   72 65 61 64 79 20 70 61 72 74 20 6F 66 20 74 68  ready part of th
-00000A70   65 20 6A 6F 75 72 6E 65 79 2E 20 59 6F 75 27 76  e journey. You'v
-00000A80   65 20 67 6F 6E 65 20 74 68 72 6F 75 67 68 20 74  e gone through t
-00000A90   68 65 20 72 61 62 62 69 74 20 68 6F 6C 65 2E 20  he rabbit hole.
-00000AA0   54 68 65 72 65 27 73 20 6E 6F 20 74 75 72 6E 69  There's no turni
-00000AB0   6E 67 20 62 61 63 6B 20 6E 6F 77 2E 0D 0A 0D 0A  ng back now.....
-00000AC0   57 61 74 63 68 20 74 68 69 73 20 73 70 61 63 65  Watch this space
-00000AD0   2E 20 46 6F 6C 6C 6F 77 20 6F 75 72 20 65 78 70  . Follow our exp
-00000AE0   65 72 69 6D 65 6E 74 73 2E 20 55 73 65 20 6F 75  eriments. Use ou
-00000AF0   72 20 74 6F 6F 6C 73 2E 20 42 72 65 61 6B 20 74  r tools. Break t
-00000B00   68 65 6D 2E 20 49 6D 70 72 6F 76 65 20 74 68 65  hem. Improve the
-00000B10   6D 2E 20 46 6F 72 6B 20 74 68 65 6D 2E 20 4D 61  m. Fork them. Ma
-00000B20   6B 65 20 74 68 65 6D 20 79 6F 75 72 20 6F 77 6E  ke them your own
-00000B30   2E 0D 0A 0D 0A 41 6E 64 20 6D 61 79 62 65 2C 20  .....And maybe,
-00000B40   6A 75 73 74 20 6D 61 79 62 65 2C 20 79 6F 75 27  just maybe, you'
-00000B50   6C 6C 20 68 65 6C 70 20 75 73 20 66 6F 72 67 65  ll help us forge
-00000B60   20 74 68 65 20 66 75 74 75 72 65 2E 0D 0A 0D 0A   the future.....
-00000B70   54 68 65 20 66 6F 72 67 65 20 69 73 20 61 6C 77  The forge is alw
-00000B80   61 79 73 20 62 75 72 6E 69 6E 67 2E 20 54 68 65  ays burning. The
-00000B90   20 6E 65 75 72 61 6C 20 63 6F 72 65 73 20 61 72   neural cores ar
-00000BA0   65 20 61 6C 77 61 79 73 20 6C 65 61 72 6E 69 6E  e always learnin
-00000BB0   67 2E 20 54 68 65 20 6E 65 78 74 20 69 74 65 72  g. The next iter
-00000BC0   61 74 69 6F 6E 20 69 73 20 61 6C 77 61 79 73 20  ation is always
-00000BD0   63 6F 6D 69 6E 67 2E 0D 0A 0D 0A 41 72 65 20 79  coming.....Are y
-00000BE0   6F 75 20 72 65 61 64 79 3F 0D 0A 0D 0A 3E 20 45  ou ready?....
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ [SYS_INIT] >> DECRYPTING TRANSMISSION...                                     │
+│ [STATUS]   >> SIGNAL ACQUIRED                                                │
+│ [AUTH]     >> CLEARANCE: ██████████ GRANTED                                  │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+## `> 0x001 // GENESIS_PROTOCOL`
+
+```
+ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+ █                                                                            █
+ █   W E   A R E   N E U R A L   F O R G E   O N E                            █
+ █                                                                            █
+ █   [2] developers. [1] consciousness. [∞] possibilities.                    █
+ █                                                                            █
+ █   United by a singular vision: to breach the membrane between              █
+ █   artificial intelligence and human creativity.                            █
+ █                                                                            █
+ █   This is not a company. This is a LABORATORY.                             █
+ █   An underground forge where the impossible becomes inevitable.            █
+ █                                                                            █
+ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+```
+
+---
+
+## `> 0x002 // OPERATIONAL_DIRECTIVES`
+
+```
+╭─────────────────────────────────────────────────────────────────────────────╮
+│                                                                             │
+│   >> We don't follow trends. We CREATE them.                                │
+│   >> We don't wait for permission. We EXPERIMENT.                           │
+│                                                                             │
+│   Every model we train    = hypothesis tested against reality               │
+│   Every product we build  = tool for the awakened                           │
+│   Every line of code      = experiment in possibility                       │
+│                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────╯
+```
+
+### `[CORE_PRINCIPLES.exe]`
+
+```
+    ┌─────────────────────────────────────────────────────────────────────┐
+    │  [■] Radical experimentation without fear of failure                │
+    │  [■] Open exploration of emerging technologies                      │
+    │  [■] Building tools that EMPOWER rather than REPLACE                │
+    │  [■] Maintaining the human element in an AI-driven world            │
+    │  [■] No corporate bureaucracy. No committees. No compromise.        │
+    └─────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## `> 0x003 // THE_FORGE`
+
+```
+                              ▲
+                             ╱█╲
+                            ╱███╲
+                           ╱█████╲
+                          ╱███████╲
+                         ╱█████████╲
+                        ╱███████████╲
+                       ╱█████████████╲
+                      ╱ ░░░░░░░░░░░░░ ╲
+                     ╱  ░ THE FORGE ░  ╲
+                    ╱   ░░░░░░░░░░░░░   ╲
+                   ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+```
+
+```
+Our lab exists in the liminal space between what IS and what COULD BE.
+We work in the shadows, iterating rapidly, failing fast, learning faster.
+
+    ╔═══════════════════════════════════════════════════════════════════╗
+    ║  This is not a corporate venture.                                 ║
+    ║  This is not a startup.                                           ║
+    ║  This is a PASSION PROJECT elevated to a way of life.             ║
+    ║                                                                   ║
+    ║  A calling. An obsession. A REBELLION.                            ║
+    ║                                                                   ║
+    ║  >> We are the architects of the next layer.                      ║
+    ╚═══════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## `> 0x004 // ACTIVE_CONSTRUCTS`
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  [SCANNING NEURAL CORES...]                                                  │
+│  ████████████████████████████████████████████████████████████████░░ 97%      │
+│  [COMPILE STATUS: ACTIVE]                                                    │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+Neural networks that think **differently**. Products that solve **real problems**.  
+Interfaces that feel **alive**. Systems that **adapt** and **evolve**.
+
+We're not interested in incremental improvements.  
+**We're here to make leaps. To break things. To rebuild them better.**
+
+### `>> TOOLS_IN_THE_FIRE:`
+
+```
+    ╭─────────────────────────────────────────────────────────────────╮
+    │  [λ] Advanced language models with custom architectures         │
+    │  [λ] Inference optimization frameworks                          │
+    │  [λ] Distributed training systems                               │
+    │  [λ] Novel attention mechanisms                                 │
+    │  [λ] Experimental protocols that don't have names yet           │
+    ╰─────────────────────────────────────────────────────────────────╯
+```
+
+### `>> PUBLIC_REPOSITORIES:`
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│  [01] ░░░ ALEXANDER STORAGE ░░░                                              │
+│       github.com/neuralforgeone/alexander-storage                            │
+│       S3-compatible, content-addressable object storage server.              │
+│       Deduplication | PostgreSQL metadata | Scalable | Written in Go         │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## `> 0x005 // FUTURE_PROJECTIONS`
+
+```
+    ╔═══════════════════════════════════════════════════════════════════════╗
+    ║                                                                       ║
+    ║   The next layer of reality is being written RIGHT NOW.               ║
+    ║   In this moment. In this terminal. In these neural pathways.         ║
+    ║                                                                       ║
+    ║   ┌───────────────────────────────────────────────────────────────┐   ║
+    ║   │  AI is not the future—it's the PRESENT.                       │   ║
+    ║   │  And we're here to shape it:                                  │   ║
+    ║   │                                                               │   ║
+    ║   │      one model at a time                                      │   ║
+    ║   │      one product at a time                                    │   ║
+    ║   │      one breakthrough at a time                               │   ║
+    ║   └───────────────────────────────────────────────────────────────┘   ║
+    ║                                                                       ║
+    ║   The question is not WHETHER artificial intelligence will            ║
+    ║   change everything. It already has.                                  ║
+    ║                                                                       ║
+    ║   The question is: WHO GETS TO DECIDE HOW?                            ║
+    ║                                                                       ║
+    ║   >> We do.                                                           ║
+    ║   >> And if you're reading this, anon, so do YOU.                     ║
+    ║                                                                       ║
+    ╚═══════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## `> 0x006 // TRANSMISSION_PROTOCOL`
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│   If you've made it this far, you're already PART OF THE JOURNEY.            │
+│                                                                              │
+│   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  │
+│   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  │
+│         Y O U ' V E   E N T E R E D   T H E   R A B B I T   H O L E          │
+│   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  │
+│   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  │
+│                                                                              │
+│   There's no turning back now.                                               │
+│                                                                              │
+│   [■] Watch this space                                                       │
+│   [■] Follow our experiments                                                 │
+│   [■] Use our tools                                                          │
+│   [■] Break them                                                             │
+│   [■] Improve them                                                           │
+│   [■] Fork them                                                              │
+│   [■] Make them YOUR OWN                                                     │
+│                                                                              │
+│   And maybe, just maybe, you'll help us FORGE THE FUTURE.                    │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+```
+    ████████████████████████████████████████████████████████████████████████
+    █                                                                      █
+    █   The forge is always burning.                                       █
+    █   The neural cores are always learning.                              █
+    █   The next iteration is always coming.                               █
+    █                                                                      █
+    █   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  █
+    █   ░                                                                ░  █
+    █   ░               A R E   Y O U   R E A D Y ?                      ░  █
+    █   ░                                                                ░  █
+    █   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  █
+    █                                                                      █
+    ████████████████████████████████████████████████████████████████████████
+```
+
+---
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║   [END_TRANSMISSION]                                                         ║
+║   [SIGNAL_STRENGTH: ████████████ 100%]                                       ║
+║   [ENCRYPTION: AES-256-GCM]                                                  ║
+║   [TIMESTAMP: ██████████]                                                    ║
+║                                                                              ║
+║   >> NEURAL_FORGE_ONE_SIGNING_OFF                                            ║
+║   >> CONNECTION_TERMINATED                                                   ║
+║   >> SEE_YOU_IN_THE_MATRIX                                                   ║
+║                                                                              ║
+║   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
